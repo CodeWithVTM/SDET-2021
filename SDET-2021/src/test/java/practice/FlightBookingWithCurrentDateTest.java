@@ -42,5 +42,6 @@ void flightBook() throws InterruptedException {
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//div[@aria-label='"+departureDate+"']")).click();
 	System.out.println("Flight Booked  with Current Date Successfully");
+	System.out.println("Flight Booked  with Current Date Successfully");
 }//Tue Nov 09 2021
 }
